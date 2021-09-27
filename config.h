@@ -113,28 +113,28 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#000000", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#ff0000",
-	"#33ff00",
-	"#ff0099",
-	"#0066ff",
-	"#cc00ff",
-	"#00ffff",
-	"#d0d0d0",
-	"#808080",
-	"#ff0000",
-	"#33ff00",
-	"#ff0099",
-	"#0066ff",
-	"#cc00ff",
-	"#00ffff",
-	"#ebdbb2",
+	"#0a0f14", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#b22412", /* Error backgrounds */
+	"#5282ff",
+	"#fea63c",
+	"#66aabb",
+	"#b7416c",
+	"#55b2ff",
+	"#3333ff",
+	"#5bb5b5",
+	"#d23d3d",
+	"#25a98b",
+	"#d2ff20",
+	"#3388cc",
+	"#d2ff20", /* NVIM Startify Menu Index */
+	"#3388CC",
+	"#cccccc",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
+	"#44ffff", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#000000", /* 258 -> bg */
-	"#d0d0d0", /* 259 -> fg */
+	"#161616", /* 258 -> bg */
+	"#ffffff", /* 259 -> fg */
 };
 
 
